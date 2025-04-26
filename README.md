@@ -11,29 +11,25 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/to/develop-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+Ceci est un package core, qui regroupe tous les utilitaires de base pour la conception d'un projet flutter
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Mon Package est tout mon répertoire "core" encapsulé qui vous permettra d'appeler directement dans n'importe lequel de vos projets les configurations de base, comme les Widget de base, les modèles pour gérer les érreurs, le style, etc.
 
-## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+Aller dans votre fichier ``pubspec.yaml`` et dans `dependencies`rajoutez :
 
-```dart
-const like = 'sample';
+```yaml
+core:
+    git:
+      url: https://github.com/Josback04/core-flutter.git
+      ref: master
 ```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+Ce package sera mis à jour au fur et à mésure. dgaf
